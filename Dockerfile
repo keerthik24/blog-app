@@ -1,4 +1,4 @@
-FROM ruby:2.7.4
+FROM ruby:3.2.0
 WORKDIR /app
 COPY Gemfile Gemfile.lock ./
 RUN gem install bundler:2.4.10
