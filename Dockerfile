@@ -4,5 +4,5 @@ COPY Gemfile Gemfile.lock ./
 RUN gem install bundler:2.4.10
 RUN bundle install
 EXPOSE 3000
-CMD ["ruby", "src/app.rb"]
+CMD ["ruby", "run", "src/app.rb", "start"]
 
